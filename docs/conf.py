@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'pyswmm-docs-redirect'
-copyright = '2023, BM'
-author = 'BM'
-release = 'v0'
+copyright = '2023, Bryant E. McDonnell'
+author = 'Bryant E. McDonnell'
+release = 'v1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -26,7 +26,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
-
 html_theme_options = {
     # Disable showing the sidebar. Defaults to 'false'
     'nosidebar': True,
